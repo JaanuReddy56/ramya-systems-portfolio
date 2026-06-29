@@ -5,11 +5,14 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Ramya Reddy Koppula | Senior Java Full-Stack Engineer",
   description:
-    "Portfolio of Ramya Reddy Koppula, a senior Java full-stack engineer specializing in secure cloud-native systems, Spring Boot, Angular, React, AWS, Azure, and distributed architecture.",
+    "Portfolio of Ramya Reddy Koppula, a senior Java engineer specializing in Spring Boot APIs, Snowflake data pipelines, Python ETL, secure enterprise integration, AWS, Azure, and production reliability.",
   keywords: [
     "Senior Java Developer",
     "Full-Stack Engineer",
     "Spring Boot",
+    "Snowflake",
+    "Python ETL",
+    "Data Engineering",
     "Angular",
     "React",
     "AWS",
@@ -18,7 +21,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Ramya Reddy Koppula | Senior Java Full-Stack Engineer",
-    description: "Secure systems. Observable architecture. Reliable delivery.",
+    description: "Secure Java services. Trusted Snowflake data. Reliable delivery.",
     type: "website",
   },
 };

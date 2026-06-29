@@ -67,8 +67,9 @@ export default function Home() {
               </div>
               <div className="overflow-x-auto p-6 font-mono text-[13px] leading-7 sm:p-8 sm:text-sm">
                 <p><span className="text-fuchsia-600 dark:text-fuchsia-400">const</span> <span className="text-sky-700 dark:text-sky-300">engineer</span> = &#123;</p>
-                <p className="pl-5"><span className="text-slate-500">focus:</span> <span className="text-emerald-700 dark:text-emerald-300">&quot;reliable distributed systems&quot;</span>,</p>
+                <p className="pl-5"><span className="text-slate-500">focus:</span> <span className="text-emerald-700 dark:text-emerald-300">&quot;secure API &amp; data platforms&quot;</span>,</p>
                 <p className="pl-5"><span className="text-slate-500">backend:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Java&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;Spring Boot&quot;</span>],</p>
+                <p className="pl-5"><span className="text-slate-500">data:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Snowflake&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;Python ETL&quot;</span>],</p>
                 <p className="pl-5"><span className="text-slate-500">frontend:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Angular&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;React&quot;</span>],</p>
                 <p className="pl-5"><span className="text-slate-500">cloud:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;AWS&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;Azure&quot;</span>],</p>
                 <p className="pl-5"><span className="text-slate-500">principles:</span> [</p>
@@ -106,10 +107,10 @@ export default function Home() {
           </div>
           <div className="grid gap-6 text-base leading-8 text-slate-600 dark:text-slate-400 md:grid-cols-2">
             <p>
-              Ramya specializes in systems where correctness, security, and recoverability matter as much as feature velocity. Her work spans regulated financial services, federal records, insurance operations, and high-volume retail platforms.
+              Ramya specializes in systems where data correctness, security, and recoverability matter as much as feature velocity. Across her three most recent engagements, she has combined Java services with Snowflake pipelines, Python ETL, secure data movement, and analytics-ready reporting.
             </p>
             <p>
-              She connects architecture to execution: versioned APIs, event-driven workflows, cloud infrastructure, accessible user experiences, automated delivery, and telemetry that helps teams understand what is happening in production.
+              She connects architecture to execution: versioned APIs, data ingestion and sanitization, event-driven workflows, cloud infrastructure, automated testing, CI/CD, and telemetry that makes complex production data flows explainable and supportable.
             </p>
           </div>
         </div>
@@ -149,8 +150,8 @@ export default function Home() {
         <div className="shell">
           <SectionHeading
             eyebrow="Technical range"
-            title="Full-stack depth without losing systems thinking."
-            description="A practical toolkit for designing, shipping, and operating modern enterprise software."
+            title="Backend depth, secure data engineering, and full-stack delivery."
+            description="A practical toolkit for secure APIs, Snowflake data platforms, enterprise integration, automated delivery, and production operations."
           />
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {skillGroups.map((group) => (
@@ -190,7 +191,7 @@ export default function Home() {
                   Looking for a senior engineer who can connect architecture, delivery, and operations?
                 </h2>
                 <p className="mt-5 max-w-2xl text-base leading-8 text-slate-400">
-                  Ramya brings hands-on full-stack depth, cloud-native architecture experience, and a production-first approach to reliable software delivery.
+                  Ramya brings hands-on Java depth, Snowflake and Python data-engineering experience, cloud-native architecture, and a production-first approach to secure delivery.
                 </p>
               </div>
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
@@ -207,7 +208,7 @@ export default function Home() {
             <div className="relative mt-10 flex flex-wrap gap-x-8 gap-y-3 border-t border-slate-800 pt-6 font-mono text-xs text-slate-500">
               <span>{profile.phone}</span>
               <span>B.Tech · Computer Science · KL University</span>
-              <span>Java · Spring Boot · Angular · AWS · Azure</span>
+              <span>Java · Spring Boot · Snowflake · Python · AWS · Azure</span>
             </div>
           </div>
         </div>

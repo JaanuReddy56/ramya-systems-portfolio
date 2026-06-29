@@ -20,9 +20,9 @@ export const profile = {
   name: "Ramya Reddy Koppula",
   role: "Senior Java Full-Stack Engineer",
   headline:
-    "I build secure, observable cloud systems that stay reliable under real enterprise load.",
+    "I build secure Java services and cloud data platforms that turn complex enterprise data into trusted outcomes.",
   summary:
-    "Senior software engineer with 11+ years of experience translating complex financial, federal, insurance, and retail workflows into scalable Spring Boot services and responsive web applications. Strongest at the intersection of distributed systems, cloud architecture, application security, and production reliability.",
+    "Senior software engineer with 11+ years of experience delivering Spring Boot APIs, Snowflake data pipelines, Python ETL, event-driven integrations, and modern web applications across regulated financial and federal environments. Strongest at connecting backend architecture, secure data engineering, cloud automation, and production reliability.",
   email: "ramyareddykoppula66@gmail.com",
   phone: "+1 972 699 5929",
   linkedIn: "https://www.linkedin.com/in/ramyaareddyk",
@@ -30,66 +30,67 @@ export const profile = {
 };
 
 export const metrics = [
-  { value: "11+", label: "years building enterprise software" },
-  { value: "40%", label: "reliability improvement delivered" },
-  { value: "60%", label: "faster deployment cycles" },
-  { value: "99.99%", label: "production uptime supported" },
+  { value: "11+", label: "years delivering enterprise software" },
+  { value: "3", label: "recent engagements using Snowflake" },
+  { value: "Java 17", label: "modern backend engineering" },
+  { value: "AWS + Azure", label: "multi-cloud delivery experience" },
 ];
 
 export const projects: Project[] = [
   {
-    title: "Financial Surveillance & Serverless Platform Modernization",
-    context: "Capital One · Financial technology",
+    title: "Financial Analytics & Reporting Integration Platform",
+    context: "Capital One · Banking analytics and reporting",
     summary:
-      "Modernized cloud-backed application workflows for a regulated financial environment, connecting Angular experiences with Java services and AWS serverless components while strengthening production support and release quality.",
+      "Developed and supported a secure Java and Snowflake integration platform for transaction, compliance, and reporting data flows across internal banking systems.",
     impact: [
-      "Integrated Lambda, S3, DynamoDB, IAM, Secrets Manager, and CloudWatch into secure application workflows.",
-      "Improved incident diagnosis through structured log analysis, root-cause investigation, and targeted remediation.",
-      "Raised delivery confidence with automated builds, tests, security scans, dependency checks, and code reviews.",
+      "Designed Spring Boot REST services with versioned contracts, validation, structured error handling, and reliable downstream integration patterns.",
+      "Built Snowflake ingestion and transformation pipelines using S3 stages, COPY INTO, Snowpipe, SQL validation, balancing controls, and exception handling.",
+      "Connected Python ETL, AWS Lambda, secure SFTP/PGP transfers, Jenkins pipelines, and production monitoring into an auditable delivery workflow.",
     ],
-    stack: ["Java", "Spring Boot", "Angular", "AWS Lambda", "DynamoDB", "CloudWatch"],
+    stack: ["Java 17", "Spring Boot", "Snowflake", "Python ETL", "AWS", "Jenkins"],
     signal: "Current focus",
   },
   {
-    title: "Automated Ex-Employee Data Management System",
-    context: "Freddie Mac · HR and access reconciliation",
+    title: "Enterprise Workforce & Financial Data Hub",
+    context: "Freddie Mac · HR, payroll, banking, and reporting",
     summary:
-      "Designed a secure platform that reconciled former-employee records across HR, payroll, and access systems, giving business teams a dependable view of status, ownership, and exceptions.",
+      "Designed reusable backend and data-integration services for ingesting, sanitizing, reconciling, warehousing, and reporting employee and financial data across enterprise and partner systems.",
     impact: [
-      "Built domain-aligned Spring Boot services with versioned APIs, idempotency, circuit breaking, and audit-ready data flows.",
-      "Implemented event-driven processing on AWS MSK with governed schemas, replay procedures, and dead-letter handling.",
-      "Enabled low-risk releases through Terraform, immutable containers, blue-green deployment, and automated rollback checks.",
+      "Built Snowflake pipelines and curated reporting structures for HR, payroll, expense, card, and ERP datasets using stages, COPY INTO, Snowpipe, streams, and tasks.",
+      "Developed Python ETL and data-sanitization modules for schema checks, control totals, reconciliation, sensitive-field handling, and operational audit outputs.",
+      "Delivered secure REST/SOAP, Kafka, SFTP, and PGP integrations with automated testing, GitHub Actions, Maven, Terraform, and production runbooks.",
     ],
-    stack: ["Java 17", "Spring Boot 3", "Angular 17", "Next.js", "AWS MSK", "PostgreSQL"],
-    signal: "Architecture leadership",
+    stack: ["Java 17", "Spring Boot 3", "Snowflake", "Python", "AWS MSK", "Terraform"],
+    signal: "Data platform leadership",
   },
   {
-    title: "Veteran Records & Document Management Portal",
-    context: "Veterans Affairs · Federal services",
+    title: "Federal Financial Data & Compliance Platform",
+    context: "Veterans Affairs · Financial records and reporting",
     summary:
-      "Delivered a role-aware portal for records, claims, and eligibility workflows with strong auditability, secure document access, and resilient service-to-service integration.",
+      "Delivered secure backend data-integration workflows for financial records, payment processing, analytics, compliance reporting, and controlled downstream distribution.",
     impact: [
-      "Reduced information retrieval from hours to seconds through optimized PostgreSQL and DynamoDB access patterns.",
-      "Protected sensitive workflows with OAuth2, JWT, SAML SSO, KMS encryption, Secrets Manager, and least-privilege IAM.",
-      "Improved release predictability using automated regression coverage, observability, SLO-based alerts, and zero-downtime deployment patterns.",
+      "Designed Snowflake ingestion, mapping, transformation, sanitization, and reconciliation flows for file, API, and database data sources.",
+      "Built Spring Boot REST/SOAP services, Kafka event streams, and AWS batch workflows with idempotency, restartability, and end-to-end traceability.",
+      "Validated reliability through unit, integration, regression, performance, load, and recovery testing while tuning Snowflake SQL and virtual warehouses.",
     ],
-    stack: ["Java 17", "Spring Boot", "Angular", "Kafka", "AWS", "OpenTelemetry"],
-    signal: "Security + scale",
+    stack: ["Java 17", "Spring Boot", "Snowflake", "Python", "Kafka", "AWS"],
+    signal: "Security + governance",
   },
 ];
 
 export const experiences: Experience[] = [
   {
     company: "Capital One",
-    role: "Senior Java Full-Stack Developer / Software Engineer",
+    role: "Senior Java Backend Developer",
     period: "Feb 2026 — Present",
     location: "Richmond, VA",
     highlights: [
-      "Develop and support Angular front ends, Java/Spring services, REST integrations, and AWS serverless components for enterprise financial workflows.",
-      "Own production troubleshooting across logs, incidents, defects, security findings, and performance bottlenecks.",
-      "Contribute to build and release automation with Maven, Git-based pipelines, quality gates, security scans, and peer review.",
+      "Develop secure Java 17 and Spring Boot services for transaction, compliance, analytics, and reporting workflows across internal banking systems.",
+      "Build and optimize Snowflake pipelines using S3 stages, COPY INTO, Snowpipe, SQL transformations, validation rules, reconciliation controls, and exception processing.",
+      "Integrate Python ETL, AWS Lambda, API Gateway, S3, secure SFTP/PGP transfers, Kafka, and role-based security into governed data-delivery workflows.",
+      "Automate builds, tests, security checks, and releases with Maven, Jenkins, GitHub Actions, JUnit, Mockito, Splunk, and CloudWatch.",
     ],
-    technologies: ["Java", "Spring Boot", "Angular", "AWS", "DynamoDB", "CI/CD"],
+    technologies: ["Java 17", "Spring Boot", "Snowflake", "Python ETL", "AWS", "Kafka", "Jenkins"],
   },
   {
     company: "Freddie Mac",
@@ -97,35 +98,37 @@ export const experiences: Experience[] = [
     period: "Jan 2024 — Jan 2026",
     location: "McLean, VA",
     highlights: [
-      "Led delivery of cloud-native services and modern web experiences for HR, financial, and access-management workflows.",
-      "Designed resilient APIs, Kafka integrations, PostgreSQL and DynamoDB models, and observable deployment paths on AWS.",
-      "Mentored engineers, guided architecture decisions, and improved operational safety with SLOs, runbooks, and automated releases.",
+      "Designed reusable Spring Boot services and integration adapters for REST, SOAP/WSDL, batch, file-based, internal-system, and partner interfaces.",
+      "Built Snowflake pipelines and secure reporting structures for employee, payroll, expense, banking, card, and ERP data using stages, Snowpipe, streams, tasks, and secure views.",
+      "Developed Python ETL and sanitization utilities for parsing, schema validation, sensitive-field controls, control totals, reconciliation, and audit manifests.",
+      "Led automated testing, CI/CD, security, observability, production support, documentation, and mentoring across Java, Python, AWS, Kafka, and Snowflake workflows.",
     ],
-    technologies: ["Java 17", "Spring Boot 3", "Angular 17", "Next.js", "AWS", "Kafka"],
+    technologies: ["Java 17", "Spring Boot 3", "Snowflake", "Python", "AWS", "Kafka", "GitHub Actions"],
   },
   {
     company: "Veterans Affairs Financial Services Center",
-    role: "Java Full-Stack Developer",
-    period: "Aug 2021 — Dec 2023",
+    role: "Java Backend Developer",
+    period: "Sep 2021 — Dec 2023",
     location: "Austin, TX",
     highlights: [
-      "Built secure records, claims, and eligibility services with strong audit trails and policy-driven authorization.",
-      "Improved data access and system responsiveness through tuned PostgreSQL, DynamoDB, Kafka, and caching patterns.",
-      "Automated testing and deployment while partnering with federal SMEs across multiple agile teams.",
+      "Developed Spring Boot services for financial records, payments, profile data, analytics, and downstream reporting through REST, SOAP, Kafka, and scheduled batch interfaces.",
+      "Designed Snowflake ingestion, transformation, sanitization, source-to-target mapping, reconciliation, rejected-record handling, and compliance-reporting datasets.",
+      "Implemented secure SFTP, S3, encryption, Snowflake RBAC, secure views, OAuth2/JWT, KMS, Secrets Manager, and controlled access to sensitive financial data.",
+      "Performed unit, integration, contract, regression, performance, load, and recovery testing while tuning Snowflake SQL, warehouse sizing, batch processing, and service performance.",
     ],
-    technologies: ["Java 17", "Spring Boot", "Angular", "AWS", "Kafka", "Selenium"],
+    technologies: ["Java 17", "Spring Boot", "Snowflake", "Python", "AWS", "Kafka", "Testcontainers"],
   },
   {
     company: "Bank of America",
-    role: "Java Full-Stack Developer",
+    role: "Java Backend Developer",
     period: "Sep 2019 — Aug 2021",
     location: "Plano, TX",
     highlights: [
-      "Built Azure-hosted payment exception and dispute workflows with end-to-end traceability.",
-      "Delivered React interfaces, Spring Boot services, RabbitMQ messaging, and Oracle/MongoDB persistence.",
-      "Strengthened security and deployment consistency through Azure AD, Key Vault, Terraform, and governed CI/CD.",
+      "Built Azure-hosted corporate-card, payment, expense, and financial-posting integrations with end-to-end traceability.",
+      "Delivered Spring Boot services, RabbitMQ messaging, secure SFTP/PGP transfers, ERP extracts, and Oracle/MongoDB persistence.",
+      "Strengthened delivery through Python/SQL reconciliation utilities, Azure AD, Key Vault, Terraform, observability, and governed CI/CD.",
     ],
-    technologies: ["Java 11", "React", "Azure AKS", "RabbitMQ", "Oracle", "MongoDB"],
+    technologies: ["Java 11", "Spring Boot", "Azure AKS", "RabbitMQ", "Oracle", "MongoDB", "Python"],
   },
   {
     company: "Liberty Mutual Insurance",
@@ -167,28 +170,40 @@ export const experiences: Experience[] = [
 
 export const skillGroups = [
   {
-    title: "Core engineering",
-    items: ["Java 8/11/17/21", "Spring Boot", "Spring MVC", "REST/OpenAPI", "Python", "SQL"],
+    title: "Backend & APIs",
+    items: ["Java 8/11/17", "Spring Boot", "Spring MVC", "Microservices", "REST/OpenAPI", "SOAP/WSDL"],
   },
   {
-    title: "Frontend",
-    items: ["Angular", "React", "Next.js", "TypeScript", "RxJS", "Accessible UI"],
+    title: "Data engineering",
+    items: ["Snowflake", "Snowflake SQL", "Snowpipe", "Stages/COPY INTO", "Python ETL", "Data Sanitization"],
+  },
+  {
+    title: "Integration & messaging",
+    items: ["Kafka/MSK", "RabbitMQ", "SFTP/PGP", "Batch Processing", "Reconciliation", "Control Totals"],
   },
   {
     title: "Cloud & platform",
-    items: ["AWS", "Azure", "Docker", "Kubernetes/AKS", "Terraform", "Serverless"],
+    items: ["AWS", "Azure", "Lambda", "S3", "Docker", "Kubernetes/AKS", "Terraform"],
   },
   {
-    title: "Distributed data",
-    items: ["Kafka/MSK", "RabbitMQ", "PostgreSQL", "Oracle", "MongoDB", "DynamoDB"],
+    title: "Security & reliability",
+    items: ["Snowflake RBAC", "OAuth2/OIDC", "JWT/SAML", "KMS/Key Vault", "Splunk", "OpenTelemetry"],
   },
   {
-    title: "Reliability & security",
-    items: ["OpenTelemetry", "CloudWatch", "OAuth2/OIDC", "JWT/SAML", "KMS/Key Vault", "SLOs"],
+    title: "Delivery & testing",
+    items: ["Jenkins", "GitHub Actions", "Maven/Gradle", "JUnit", "Testcontainers", "Selenium", "Performance Testing"],
   },
   {
-    title: "Delivery quality",
-    items: ["Maven/Gradle", "Jenkins", "GitHub Actions", "JUnit", "Testcontainers", "Selenium"],
+    title: "Frontend",
+    items: ["Angular", "React", "Next.js", "TypeScript", "JavaScript", "RxJS"],
+  },
+  {
+    title: "Datastores",
+    items: ["PostgreSQL", "Oracle", "MongoDB", "DynamoDB", "MySQL", "Secure Views"],
+  },
+  {
+    title: "Data quality & governance",
+    items: ["Schema Validation", "Source-to-Target Mapping", "Audit Reporting", "Data Masking", "Encryption", "Controlled Reprocessing"],
   },
 ];
 
