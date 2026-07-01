@@ -3,18 +3,22 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ramya Reddy Koppula | Senior Software Engineer · Broadcom DevTest",
+  title: "Ramya Reddy Koppula | Senior Java Software Engineer",
   description:
-    "Portfolio of Ramya Reddy Koppula, a senior software engineer specializing in Broadcom DevTest v10.9.x, service virtualization, Java and JavaScript automation, VSE administration, Jenkins pipelines, OpenShift, and banking integrations.",
+    "Portfolio of Ramya Reddy Koppula, a senior software engineer specializing in Java, Spring Boot, JavaScript automation, Broadcom DevTest service virtualization, Snowflake data workflows, OpenShift, and banking integrations.",
   keywords: [
     "Senior Software Engineer",
+    "Senior Java Engineer",
+    "Java",
+    "Spring Boot",
+    "JavaScript",
     "Broadcom DevTest",
     "CA DevTest",
     "Service Virtualization",
     "Virtual Service Environment",
     "VSE",
-    "Java",
-    "JavaScript",
+    "Snowflake",
+    "Python ETL",
     "REST",
     "SOAP",
     "MQ",
@@ -24,8 +28,8 @@ export const metadata: Metadata = {
     "Banking",
   ],
   openGraph: {
-    title: "Ramya Reddy Koppula | Broadcom DevTest & Service Virtualization",
-    description: "Virtualize dependencies. Automate testing. Accelerate banking software delivery.",
+    title: "Ramya Reddy Koppula | Senior Java Software Engineer",
+    description: "Java services, service virtualization, automation, and secure data platforms for reliable financial-software delivery.",
     type: "website",
   },
 };

@@ -18,11 +18,11 @@ export type Experience = {
 
 export const profile = {
   name: "Ramya Reddy Koppula",
-  role: "Senior Software Engineer · Broadcom DevTest & Java",
+  role: "Senior Java Software Engineer · Service Integration & Automation",
   headline:
-    "I virtualize complex service dependencies so teams can test earlier and ship banking software with confidence.",
+    "I build reliable Java services and automation that make complex enterprise integrations easier to test, operate, and scale.",
   summary:
-    "Senior Software Engineer with 12+ years of experience across banking and financial services, specializing in Broadcom DevTest v10.9.x, enterprise service virtualization, Java and JavaScript automation, and integration testing. Experienced in designing REST, SOAP, MQ, and database virtual services; operating VSE environments; troubleshooting platform issues; and integrating virtual services with Jenkins, Maven, OpenShift, and governed delivery pipelines.",
+    "Senior Software Engineer with 12+ years of experience building Java and Spring Boot services, JavaScript automation, and secure enterprise integrations across banking and financial services. In recent programs, I have also used Broadcom DevTest v10.9.x to virtualize REST, SOAP, MQ, and database dependencies, while supporting Jenkins and OpenShift delivery and Snowflake data pipelines for governed analytics and reporting.",
   email: "ramyareddykoppula66@gmail.com",
   phone: "+1 972 699 5929",
   linkedIn: "https://www.linkedin.com/in/ramyaareddyk",
@@ -31,50 +31,50 @@ export const profile = {
 
 export const metrics = [
   { value: "12+", label: "years in enterprise software engineering" },
-  { value: "3", label: "recent DevTest engagements" },
-  { value: "4", label: "virtualized interface patterns: REST, SOAP, MQ, database" },
-  { value: "10.9.x", label: "Broadcom DevTest platform experience" },
+  { value: "Java + JS", label: "core languages for services and automation" },
+  { value: "4", label: "integration patterns: REST, SOAP, MQ, database" },
+  { value: "3", label: "recent banking, mortgage, and federal programs" },
 ];
 
 export const projects: Project[] = [
   {
-    title: "Enterprise Banking Service Virtualization Platform",
-    context: "Capital One · Payments and banking integrations",
+    title: "Banking Integration & Test Enablement Platform",
+    context: "Capital One · Java services, virtual dependencies, and reporting",
     summary:
-      "Built and operated a Broadcom DevTest service-virtualization capability that removed unavailable downstream systems from the critical path of development, integration testing, and release validation.",
+      "Built Java and Spring Boot integrations, service-virtualization capabilities, and governed data workflows that helped banking teams test earlier, reduce downstream dependency risk, and deliver changes more predictably.",
     impact: [
-      "Designed and maintained REST, SOAP, MQ, and database virtual services in Broadcom DevTest v10.9, including dynamic request matching, response parameterization, and complex business simulations.",
-      "Configured VSE deployments, registries, service images, repositories, and environment properties while resolving SSL, endpoint, connectivity, and platform-performance issues with Broadcom support.",
-      "Integrated Java and JavaScript automation, reusable service templates, and Jenkins/Maven pipelines to enable repeatable regression testing, parallel delivery, and consistent enterprise onboarding.",
+      "Designed secure Spring Boot REST services and Java-based integration components for banking, payment, compliance, and reporting workflows.",
+      "Created and maintained Broadcom DevTest v10.9 virtual services for REST, SOAP, MQ, and database dependencies, including dynamic matching, parameterized responses, and failure simulation.",
+      "Integrated JavaScript automation with Jenkins, Maven, and OpenShift delivery while supporting Snowflake reporting pipelines with staged loading, SQL validation, balancing controls, and exception handling.",
     ],
-    stack: ["Broadcom DevTest 10.9", "Java", "JavaScript", "REST/SOAP", "Jenkins", "OpenShift"],
-    signal: "Current specialization",
+    stack: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Snowflake", "Jenkins", "OpenShift"],
+    signal: "Current banking platform work",
   },
   {
-    title: "Mortgage Integration Test Acceleration",
-    context: "Freddie Mac · Internal and third-party dependencies",
+    title: "Mortgage Service & Data Integration Platform",
+    context: "Freddie Mac · APIs, test enablement, and financial data",
     summary:
-      "Implemented reusable virtual-service architectures for mortgage and banking applications so teams could validate integrations before dependent services and test data were available.",
+      "Delivered Java services, reusable integration automation, and virtual-service architectures for mortgage workflows while improving data quality and repeatability across enterprise test environments.",
     impact: [
-      "Created and maintained DevTest virtual services for REST APIs, SOAP/WSDL interfaces, MQ messaging, and database-dependent workflows across enterprise applications.",
-      "Developed Java and JavaScript extensions for request correlation, payload transformation, dynamic responses, data-driven scenarios, and environment-specific configuration.",
-      "Automated virtual-service deployment through Jenkins pipelines, standardized implementation patterns, performed root-cause analysis, and mentored teams on service-virtualization adoption.",
+      "Developed Java and Spring Boot services plus REST and SOAP integration adapters for mortgage, HR, payroll, banking, and partner-system workflows.",
+      "Implemented Broadcom DevTest virtual services and Java/JavaScript extensions for dynamic request correlation, payload transformation, data-driven responses, and environment-aware configuration.",
+      "Automated delivery through Jenkins and reusable pipeline patterns, and supported Snowflake/Python workflows for ingestion, sanitization, reconciliation, secure views, and analytics-ready reporting.",
     ],
-    stack: ["Broadcom DevTest", "Java", "JavaScript", "Jenkins", "OpenShift", "SOAP/WSDL"],
-    signal: "Enterprise test enablement",
+    stack: ["Java 17", "Spring Boot", "Broadcom DevTest", "JavaScript", "Snowflake", "Python", "Jenkins"],
+    signal: "Integration + data reliability",
   },
   {
-    title: "Federal Financial Service Simulation",
+    title: "Federal Financial Integration Reliability",
     context: "Veterans Affairs · Payments and external financial systems",
     summary:
-      "Delivered virtual services for external financial systems, payment gateways, and partner APIs, creating stable integration-test environments across development, QA, and UAT.",
+      "Engineered reliable Java integration services and stable test environments for financial records, payment gateways, partner APIs, and downstream systems across development, QA, and UAT.",
     impact: [
-      "Designed REST, SOAP, MQ, and database service simulations with reusable models, dynamic matching, response parameterization, and data-driven behavior.",
-      "Administered DevTest VSEs, registries, service images, and Windows Server 2019 environments while diagnosing certificate, network, endpoint, and service-image failures.",
-      "Connected virtual services to Jenkins delivery workflows, created operational standards and runbooks, and coached development and QA teams on effective dependency virtualization.",
+      "Built Spring Boot services and REST/SOAP integrations for financial records, payments, analytics, and downstream reporting with strong validation and traceability.",
+      "Designed Broadcom DevTest virtual services for REST, SOAP, MQ, and database dependencies, using reusable models, dynamic matching, and Java/JavaScript automation.",
+      "Administered VSEs and Windows Server environments, resolved SSL and connectivity issues, integrated Jenkins workflows, and established runbooks and implementation standards.",
     ],
-    stack: ["CA DevTest", "Windows Server", "Java", "JavaScript", "Jenkins", "REST/SOAP/MQ"],
-    signal: "Reliability + adoption",
+    stack: ["Java 17", "Spring Boot", "CA DevTest", "JavaScript", "Windows Server", "Jenkins", "REST/SOAP/MQ"],
+    signal: "Reliability + operational ownership",
   },
 ];
 
@@ -85,14 +85,14 @@ export const experiences: Experience[] = [
     period: "Feb 2026 — Present",
     location: "Richmond, VA",
     highlights: [
-      "Design and maintain enterprise virtual services in Broadcom DevTest v10.9 for REST, SOAP, MQ, and database integrations supporting banking and payment applications.",
-      "Configure VSE deployments, registries, service-image repositories, environment properties, and reusable onboarding templates across multiple testing environments.",
-      "Develop custom Java and JavaScript extensions for dynamic request matching, parameterized responses, data transformation, validation, and dependency-failure simulation.",
-      "Integrate DevTest services with Jenkins and Maven pipelines to automate regression execution, reduce downstream dependencies, and enable parallel development and testing.",
-      "Troubleshoot SSL, connectivity, service-image, and performance issues; partner with Broadcom support; and publish architecture standards, runbooks, and implementation guidance.",
-      "Complement service virtualization with OpenShift delivery, Spring Boot services, Kafka integrations, and Snowflake reporting pipelines in a governed banking environment.",
+      "Design and enhance Java 17 and Spring Boot services for banking, payment, compliance, and reporting workflows across internal and downstream systems.",
+      "Build and maintain Broadcom DevTest v10.9 virtual services for REST, SOAP, MQ, and database integrations, reducing dependency constraints during development and testing.",
+      "Develop Java and JavaScript automation for dynamic request matching, response parameterization, data transformation, validation, and dependency-failure simulation.",
+      "Integrate automated testing and virtual services with Jenkins, Maven, GitHub Actions, and OpenShift delivery pipelines to improve repeatability and release confidence.",
+      "Troubleshoot SSL, connectivity, service-image, environment, and performance issues; partner with Broadcom support; and publish standards, runbooks, and onboarding guidance.",
+      "Build and optimize Snowflake reporting pipelines using staged loading, SQL transformations, validation rules, balancing controls, and governed access to financial data.",
     ],
-    technologies: ["Broadcom DevTest 10.9", "Java", "JavaScript", "Jenkins", "Maven", "OpenShift", "REST/SOAP/MQ"],
+    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest 10.9", "Snowflake", "Jenkins", "OpenShift"],
   },
   {
     company: "Freddie Mac",
@@ -100,13 +100,13 @@ export const experiences: Experience[] = [
     period: "Jan 2024 — Jan 2026",
     location: "McLean, VA",
     highlights: [
-      "Implemented Broadcom DevTest virtual services for mortgage and banking applications, simulating internal platforms, third-party APIs, messaging systems, and database dependencies.",
-      "Built Java and JavaScript extensions for dynamic request correlation, payload manipulation, response validation, test-data parameterization, and environment-aware configuration.",
-      "Automated virtual-service deployment and execution through Jenkins pipelines and reusable DevTest automation frameworks, improving repeatability across integration and regression testing.",
-      "Performed root-cause analysis for environment and platform issues, standardized service-virtualization patterns, and mentored application teams on virtual-service design and maintenance.",
-      "Supported OpenShift-based application lifecycle management along with Java, Python, Kafka, AWS, Snowflake, and automated end-to-end testing workflows.",
+      "Designed Java 17 and Spring Boot services and reusable integration adapters for mortgage, HR, payroll, banking, expense, and partner-system workflows.",
+      "Implemented Broadcom DevTest virtual services for REST APIs, SOAP/WSDL interfaces, MQ messaging, and database dependencies across enterprise applications.",
+      "Built Java and JavaScript extensions for request correlation, payload manipulation, response validation, test-data parameterization, and environment-specific configuration.",
+      "Automated service deployment and regression execution through Jenkins pipelines, performed root-cause analysis, and mentored teams on service design and maintainability.",
+      "Supported Snowflake and Python data workflows for ingestion, sanitization, reconciliation, secure reporting, and audit-ready datasets alongside Kafka, AWS, and OpenShift platforms.",
     ],
-    technologies: ["Broadcom DevTest", "Java", "JavaScript", "Jenkins", "OpenShift", "REST/SOAP", "MQ"],
+    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Snowflake", "Python", "Jenkins", "OpenShift"],
   },
   {
     company: "Veterans Affairs Financial Services Center",
@@ -114,13 +114,13 @@ export const experiences: Experience[] = [
     period: "Sep 2021 — Dec 2023",
     location: "Austin, TX",
     highlights: [
+      "Developed Java 17 and Spring Boot backend services for financial records, payments, analytics, reporting, and secure downstream integrations.",
       "Designed Broadcom DevTest virtual services for external financial systems, payment gateways, partner APIs, MQ integrations, and database-dependent applications.",
-      "Configured and administered VSEs, registries, service images, and environment properties across development, QA, and UAT environments hosted on Windows Server 2019.",
-      "Developed Java and JavaScript automation for dynamic request matching, response parameterization, JSON/XML parsing, validation, and dependency simulation.",
-      "Diagnosed SSL certificate, endpoint, network, service-image, and platform-performance issues, coordinating with Broadcom support to apply fixes and recommended practices.",
-      "Integrated virtual services with Jenkins pipelines, established reusable templates and operational standards, and delivered knowledge transfer to development and QA teams.",
+      "Developed Java and JavaScript automation for dynamic request matching, response parameterization, JSON/XML processing, validation, and dependency simulation.",
+      "Configured VSEs and Windows Server 2019 environments and resolved certificate, endpoint, network, service-image, and platform-performance issues.",
+      "Integrated virtual services with Jenkins pipelines, created reusable templates and operational standards, and delivered knowledge transfer to development and QA teams.",
     ],
-    technologies: ["Broadcom DevTest", "Windows Server 2019", "Java", "JavaScript", "Jenkins", "REST/SOAP/MQ"],
+    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Windows Server 2019", "Jenkins", "Snowflake"],
   },
   {
     company: "Bank of America",
@@ -130,7 +130,7 @@ export const experiences: Experience[] = [
     highlights: [
       "Built banking integrations for corporate-card, payment, expense, and financial-posting workflows using Java, Spring Boot, REST APIs, messaging, and secure file transfer.",
       "Developed JavaScript utilities for test-data generation, mocked responses, payload validation, and repeatable integration-test scenarios.",
-      "Operated containerized workloads and delivery pipelines across OpenShift/AKS, including health probes, resource controls, deployment automation, and production troubleshooting.",
+      "Operated containerized workloads and delivery pipelines across OpenShift and AKS, including health probes, resource controls, deployment automation, and production troubleshooting.",
       "Partnered with treasury, finance, compliance, security, and application teams to define mappings, test coverage, operational controls, and release readiness.",
     ],
     technologies: ["Java 11", "Spring Boot", "JavaScript", "OpenShift/AKS", "RabbitMQ", "Azure DevOps"],
@@ -175,36 +175,36 @@ export const experiences: Experience[] = [
 
 export const skillGroups = [
   {
+    title: "Java & service engineering",
+    items: ["Java 8/11/17", "Spring Boot", "JavaScript", "Microservices", "REST APIs", "SOAP/WSDL", "API Integration"],
+  },
+  {
     title: "Service virtualization",
     items: ["Broadcom DevTest 10.9.x", "CA DevTest", "Virtual Service Design", "Dependency Virtualization", "Service Simulation", "Service Modeling"],
   },
   {
-    title: "DevTest platform",
+    title: "DevTest platform operations",
     items: ["VSE Administration", "Registry Management", "Service Images", "Environment Properties", "SSL/Endpoint Troubleshooting", "Broadcom Support"],
   },
   {
-    title: "Virtualized protocols",
-    items: ["REST APIs", "SOAP/WSDL", "MQ Messaging", "Database Dependencies", "JSON/XML", "Dynamic Request Matching"],
-  },
-  {
-    title: "Programming & scripting",
-    items: ["Java 8/11/17", "JavaScript", "Python", "TypeScript", "SQL", "Shell Scripting"],
+    title: "Data & event platforms",
+    items: ["Snowflake", "Snowflake SQL", "Python ETL", "Kafka", "RabbitMQ", "PostgreSQL", "DynamoDB", "Data Validation"],
   },
   {
     title: "Automation & testing",
-    items: ["DevTest Automation", "Integration Testing", "Regression Testing", "JUnit", "Testcontainers", "Selenium", "SOAP UI"],
+    items: ["JavaScript Automation", "DevTest Automation", "Integration Testing", "Regression Testing", "JUnit", "Testcontainers", "Selenium", "SOAP UI"],
   },
   {
     title: "Infrastructure & containers",
-    items: ["Windows Server 2019/2022", "OpenShift", "Docker", "Kubernetes", "AKS", "Environment Configuration"],
+    items: ["Windows Server 2019/2022", "OpenShift", "Docker", "Kubernetes", "AKS", "AWS", "Azure"],
   },
   {
     title: "CI/CD & delivery",
     items: ["Jenkins Pipelines", "Maven", "GitHub Actions", "Azure DevOps", "Git", "Deployment Pipelines", "Release Automation"],
   },
   {
-    title: "Enterprise engineering",
-    items: ["Spring Boot", "Microservices", "Kafka", "RabbitMQ", "AWS", "Azure", "Snowflake", "Secure Integrations"],
+    title: "Security & observability",
+    items: ["OAuth2/JWT", "IAM/RBAC", "Secrets Management", "TLS/SSL", "Splunk", "CloudWatch", "OpenTelemetry"],
   },
   {
     title: "Leadership & operations",
