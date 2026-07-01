@@ -104,14 +104,14 @@ export default function Home() {
         <div className="shell grid gap-12 lg:grid-cols-[.72fr_1.28fr]">
           <div>
             <p className="eyebrow">About</p>
-            <h2 className="section-title">Java engineering strengthened by service virtualization and data platforms.</h2>
+            <h2 className="section-title">I build Java platforms that connect, automate, and scale.</h2>
           </div>
           <div className="grid gap-6 text-base leading-8 text-slate-600 dark:text-slate-400 md:grid-cols-2">
             <p>
-              Ramya builds secure Java and Spring Boot services, JavaScript automation, and enterprise integrations for banking, mortgage, payments, and federal financial workflows. Her work spans API design, messaging, production support, CI/CD, cloud platforms, and stakeholder-led delivery.
+              I build secure Java and Spring Boot services, JavaScript automation, and enterprise integrations for banking, mortgage, payments, and federal financial workflows. My experience spans API design, event-driven messaging, production support, CI/CD, cloud platforms, and stakeholder-led delivery.
             </p>
             <p>
-              She also uses Broadcom DevTest to virtualize REST, SOAP, MQ, and database dependencies, enabling earlier and more reliable testing. Alongside test enablement, she supports Snowflake and Python data workflows for secure ingestion, validation, reconciliation, analytics, and reporting.
+              I use Broadcom DevTest to virtualize REST, SOAP, MQ, and database dependencies so teams can test earlier and reduce reliance on unavailable systems. I also build Snowflake and Python data workflows for secure ingestion, validation, reconciliation, analytics, and reporting.
             </p>
           </div>
         </div>
@@ -121,8 +121,8 @@ export default function Home() {
         <div className="shell">
           <SectionHeading
             eyebrow="Featured work"
-            title="Java platforms, virtual services, and data workflows built for dependable delivery."
-            description="Selected case studies show how Java engineering, service virtualization, automation, and governed data pipelines improved delivery across recent financial-services programs."
+            title="I turn complex integrations into dependable systems."
+            description="These selected projects show how I combine Java engineering, service virtualization, automation, and governed data pipelines to improve delivery across financial-services programs."
           />
           <div className="grid gap-5 lg:grid-cols-3">
             {projects.map((project, index) => (
@@ -136,8 +136,8 @@ export default function Home() {
         <div className="shell">
           <SectionHeading
             eyebrow="Experience"
-            title="A career built across complex, high-accountability environments."
-            description="Progressive ownership across Java services, enterprise integrations, JavaScript automation, service virtualization, Snowflake data workflows, cloud platforms, and production operations."
+            title="I have grown by solving high-accountability engineering problems."
+            description="Across each role, I have taken ownership of Java services, enterprise integrations, JavaScript automation, service virtualization, Snowflake data workflows, cloud platforms, and production operations."
           />
           <div className="rounded-2xl border border-slate-200 bg-white px-5 shadow-sm sm:px-8 dark:border-slate-800 dark:bg-slate-950">
             {experiences.map((item) => (
@@ -151,8 +151,8 @@ export default function Home() {
         <div className="shell">
           <SectionHeading
             eyebrow="Technical range"
-            title="Java engineering, service virtualization, automation, and secure data platforms."
-            description="A practical toolkit for backend services, API integration, DevTest administration, custom scripting, Snowflake workflows, environment troubleshooting, deployment automation, and production support."
+            title="My toolkit spans services, automation, testing, and data platforms."
+            description="I use these technologies to build backend services, integrate APIs, administer DevTest environments, automate delivery, support Snowflake workflows, troubleshoot complex systems, and operate production platforms."
           />
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {skillGroups.map((group) => (
@@ -189,10 +189,10 @@ export default function Home() {
               <div>
                 <p className="font-mono text-xs font-semibold uppercase tracking-[0.18em] text-emerald-400">Contact</p>
                 <h2 className="mt-4 max-w-3xl text-4xl font-semibold tracking-[-0.035em] sm:text-5xl">
-                  Looking for a senior engineer who can build reliable Java platforms and make complex integrations easier to test?
+                  Let&apos;s build reliable Java platforms and make complex integrations easier to test, operate, and scale.
                 </h2>
                 <p className="mt-5 max-w-2xl text-base leading-8 text-slate-400">
-                  Ramya brings senior Java and Spring Boot engineering, JavaScript automation, Broadcom DevTest service virtualization, Snowflake data experience, OpenShift delivery, and a production-first approach to enterprise integrations.
+                  I bring senior Java and Spring Boot engineering, JavaScript automation, Broadcom DevTest service virtualization, Snowflake data experience, OpenShift delivery, and a production-first approach to enterprise integrations.
                 </p>
               </div>
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
@@ -218,7 +218,7 @@ export default function Home() {
       <footer className="border-t border-slate-200 py-8 dark:border-slate-800">
         <div className="shell flex flex-col gap-3 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between dark:text-slate-500">
           <p>© {new Date().getFullYear()} Ramya Reddy Koppula.</p>
-          <p className="font-mono text-xs">Designed around systems, not decoration.</p>
+          <p className="font-mono text-xs">I design for clarity, reliability, and real engineering impact.</p>
         </div>
       </footer>
     </main>

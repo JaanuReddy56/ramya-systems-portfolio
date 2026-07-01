@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Ramya Reddy Koppula | Senior Java Software Engineer",
   description:
-    "Portfolio of Ramya Reddy Koppula, a senior software engineer specializing in Java, Spring Boot, JavaScript automation, Broadcom DevTest service virtualization, Snowflake data workflows, OpenShift, and banking integrations.",
+    "I build reliable Java and Spring Boot services, JavaScript automation, Broadcom DevTest virtual services, Snowflake data workflows, and secure banking integrations.",
   keywords: [
     "Senior Software Engineer",
     "Senior Java Engineer",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Ramya Reddy Koppula | Senior Java Software Engineer",
-    description: "Java services, service virtualization, automation, and secure data platforms for reliable financial-software delivery.",
+    description: "I build Java services, service-virtualization automation, and secure data platforms for reliable financial-software delivery.",
     type: "website",
   },
 };

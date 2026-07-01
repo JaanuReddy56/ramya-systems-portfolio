@@ -1,6 +1,6 @@
 # Ramya Systems Portfolio
 
-A production-ready personal portfolio for **Ramya Reddy Koppula**, positioned as a **Senior Software Engineer specializing in Java, Spring Boot, enterprise integrations, service virtualization, automation, and secure data platforms**.
+A production-ready personal portfolio written in Ramya Reddy Koppula’s own voice and positioned around **Java, Spring Boot, enterprise integrations, service virtualization, automation, and secure data platforms**.
 
 ## Candidate positioning
 
@@ -8,7 +8,7 @@ A production-ready personal portfolio for **Ramya Reddy Koppula**, positioned as
 
 **Seniority:** Senior — 12+ years
 
-**Positioning approach:** The portfolio leads with Ramya's long-term Java and Spring Boot engineering background, then presents Broadcom DevTest and service virtualization as a strong recent specialization rather than the candidate's entire identity. Snowflake, Python ETL, cloud platforms, and secure financial-data workflows remain visible to keep the portfolio aligned with her broader resume and LinkedIn profile.
+**Positioning approach:** The portfolio uses first-person language throughout. It leads with long-term Java and Spring Boot engineering experience, presents Broadcom DevTest and service virtualization as a strong recent specialization, and keeps Snowflake, Python ETL, cloud platforms, and secure financial-data workflows visible for consistency with the broader resume and LinkedIn profile.
 
 **Core strengths:**
 
