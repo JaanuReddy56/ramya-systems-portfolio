@@ -67,20 +67,20 @@ export default function Home() {
               </div>
               <div className="overflow-x-auto p-6 font-mono text-[13px] leading-7 sm:p-8 sm:text-sm">
                 <p><span className="text-fuchsia-600 dark:text-fuchsia-400">const</span> <span className="text-sky-700 dark:text-sky-300">engineer</span> = &#123;</p>
-                <p className="pl-5"><span className="text-slate-500">focus:</span> <span className="text-emerald-700 dark:text-emerald-300">&quot;secure API &amp; data platforms&quot;</span>,</p>
-                <p className="pl-5"><span className="text-slate-500">backend:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Java&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;Spring Boot&quot;</span>],</p>
-                <p className="pl-5"><span className="text-slate-500">data:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Snowflake&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;Python ETL&quot;</span>],</p>
-                <p className="pl-5"><span className="text-slate-500">frontend:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Angular&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;React&quot;</span>],</p>
-                <p className="pl-5"><span className="text-slate-500">cloud:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;AWS&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;Azure&quot;</span>],</p>
+                <p className="pl-5"><span className="text-slate-500">focus:</span> <span className="text-emerald-700 dark:text-emerald-300">&quot;enterprise service virtualization&quot;</span>,</p>
+                <p className="pl-5"><span className="text-slate-500">platform:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Broadcom DevTest&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;VSE&quot;</span>],</p>
+                <p className="pl-5"><span className="text-slate-500">virtualizes:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;REST&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;SOAP&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;MQ&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;DB&quot;</span>],</p>
+                <p className="pl-5"><span className="text-slate-500">automation:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Java&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;JavaScript&quot;</span>],</p>
+                <p className="pl-5"><span className="text-slate-500">delivery:</span> [<span className="text-amber-700 dark:text-amber-300">&quot;Jenkins&quot;</span>, <span className="text-amber-700 dark:text-amber-300">&quot;OpenShift&quot;</span>],</p>
                 <p className="pl-5"><span className="text-slate-500">principles:</span> [</p>
-                <p className="pl-10 text-emerald-700 dark:text-emerald-300">&quot;security by design&quot;,</p>
-                <p className="pl-10 text-emerald-700 dark:text-emerald-300">&quot;observable by default&quot;,</p>
-                <p className="pl-10 text-emerald-700 dark:text-emerald-300">&quot;safe to change&quot;</p>
+                <p className="pl-10 text-emerald-700 dark:text-emerald-300">&quot;test before dependencies exist&quot;,</p>
+                <p className="pl-10 text-emerald-700 dark:text-emerald-300">&quot;repeatable environments&quot;,</p>
+                <p className="pl-10 text-emerald-700 dark:text-emerald-300">&quot;faster feedback loops&quot;</p>
                 <p className="pl-5">],</p>
                 <p>&#125;;</p>
                 <div className="mt-7 flex items-center gap-3 text-xs text-slate-400">
                   <CodeIcon className="h-4 w-4 text-emerald-500" />
-                  <span>architect · build · operate · improve</span>
+                  <span>virtualize · automate · troubleshoot · scale</span>
                 </div>
               </div>
             </div>
@@ -103,14 +103,14 @@ export default function Home() {
         <div className="shell grid gap-12 lg:grid-cols-[.72fr_1.28fr]">
           <div>
             <p className="eyebrow">About</p>
-            <h2 className="section-title">Engineering judgment shaped by production reality.</h2>
+            <h2 className="section-title">Service virtualization grounded in production engineering.</h2>
           </div>
           <div className="grid gap-6 text-base leading-8 text-slate-600 dark:text-slate-400 md:grid-cols-2">
             <p>
-              Ramya specializes in systems where data correctness, security, and recoverability matter as much as feature velocity. Across her three most recent engagements, she has combined Java services with Snowflake pipelines, Python ETL, secure data movement, and analytics-ready reporting.
+              Ramya specializes in removing unstable or unavailable dependencies from enterprise testing. Across her three most recent engagements, she has designed Broadcom DevTest virtual services for REST, SOAP, MQ, and database integrations supporting banking, mortgage, payments, and federal financial workflows.
             </p>
             <p>
-              She connects architecture to execution: versioned APIs, data ingestion and sanitization, event-driven workflows, cloud infrastructure, automated testing, CI/CD, and telemetry that makes complex production data flows explainable and supportable.
+              She connects platform engineering to delivery: VSE configuration, service-image management, Java and JavaScript extensions, Windows Server troubleshooting, OpenShift environments, Jenkins automation, implementation standards, and stakeholder enablement that makes service virtualization usable at enterprise scale.
             </p>
           </div>
         </div>
@@ -120,8 +120,8 @@ export default function Home() {
         <div className="shell">
           <SectionHeading
             eyebrow="Featured work"
-            title="Enterprise platforms designed for scale, control, and change."
-            description="Selected case studies are written at a public-safe level while preserving the architecture, ownership, and business impact of the work."
+            title="Virtual services that remove dependencies and accelerate delivery."
+            description="Selected case studies show how service virtualization improved testability across recent banking, mortgage, and federal financial-services engagements."
           />
           <div className="grid gap-5 lg:grid-cols-3">
             {projects.map((project, index) => (
@@ -136,7 +136,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Experience"
             title="A career built across complex, high-accountability environments."
-            description="Progressive ownership across application engineering, distributed systems, cloud platforms, reliability, security, and technical leadership."
+            description="Progressive ownership across service virtualization, Java automation, environment operations, integration testing, cloud platforms, and enterprise adoption."
           />
           <div className="rounded-2xl border border-slate-200 bg-white px-5 shadow-sm sm:px-8 dark:border-slate-800 dark:bg-slate-950">
             {experiences.map((item) => (
@@ -150,8 +150,8 @@ export default function Home() {
         <div className="shell">
           <SectionHeading
             eyebrow="Technical range"
-            title="Backend depth, secure data engineering, and full-stack delivery."
-            description="A practical toolkit for secure APIs, Snowflake data platforms, enterprise integration, automated delivery, and production operations."
+            title="Broadcom DevTest depth, Java automation, and enterprise test enablement."
+            description="A practical toolkit for virtual-service design, DevTest administration, custom scripting, environment troubleshooting, deployment automation, and production support."
           />
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {skillGroups.map((group) => (
@@ -188,10 +188,10 @@ export default function Home() {
               <div>
                 <p className="font-mono text-xs font-semibold uppercase tracking-[0.18em] text-emerald-400">Contact</p>
                 <h2 className="mt-4 max-w-3xl text-4xl font-semibold tracking-[-0.035em] sm:text-5xl">
-                  Looking for a senior engineer who can connect architecture, delivery, and operations?
+                  Looking for a senior engineer who can remove test dependencies and scale service virtualization?
                 </h2>
                 <p className="mt-5 max-w-2xl text-base leading-8 text-slate-400">
-                  Ramya brings hands-on Java depth, Snowflake and Python data-engineering experience, cloud-native architecture, and a production-first approach to secure delivery.
+                  Ramya brings hands-on Broadcom DevTest expertise, Java and JavaScript automation, VSE administration, OpenShift delivery, and a production-first approach to enterprise integration testing.
                 </p>
               </div>
               <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
@@ -208,7 +208,7 @@ export default function Home() {
             <div className="relative mt-10 flex flex-wrap gap-x-8 gap-y-3 border-t border-slate-800 pt-6 font-mono text-xs text-slate-500">
               <span>{profile.phone}</span>
               <span>B.Tech · Computer Science · KL University</span>
-              <span>Java · Spring Boot · Snowflake · Python · AWS · Azure</span>
+              <span>Broadcom DevTest · Java · JavaScript · Jenkins · OpenShift · Windows Server</span>
             </div>
           </div>
         </div>
