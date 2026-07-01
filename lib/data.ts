@@ -11,7 +11,6 @@ export type Experience = {
   company: string;
   role: string;
   period: string;
-  location: string;
   highlights: string[];
   technologies: string[];
 };
@@ -83,7 +82,6 @@ export const experiences: Experience[] = [
     company: "Capital One",
     role: "Senior Software Engineer",
     period: "Feb 2026 — Present",
-    location: "Richmond, VA",
     highlights: [
       "I design and enhance Java 17 and Spring Boot services for banking, payment, compliance, and reporting workflows across internal and downstream systems.",
       "I build and maintain Broadcom DevTest v10.9 virtual services for REST, SOAP, MQ, and database integrations, reducing dependency constraints during development and testing.",
@@ -98,7 +96,6 @@ export const experiences: Experience[] = [
     company: "Freddie Mac",
     role: "Senior Software Engineer",
     period: "Jan 2024 — Jan 2026",
-    location: "McLean, VA",
     highlights: [
       "I designed Java 17 and Spring Boot services and reusable integration adapters for mortgage, HR, payroll, banking, expense, and partner-system workflows.",
       "I implemented Broadcom DevTest virtual services for REST APIs, SOAP/WSDL interfaces, MQ messaging, and database dependencies across enterprise applications.",
@@ -112,7 +109,6 @@ export const experiences: Experience[] = [
     company: "Veterans Affairs Financial Services Center",
     role: "Senior Software Engineer",
     period: "Sep 2021 — Dec 2023",
-    location: "Austin, TX",
     highlights: [
       "I developed Java 17 and Spring Boot backend services for financial records, payments, analytics, reporting, and secure downstream integrations.",
       "I designed Broadcom DevTest virtual services for external financial systems, payment gateways, partner APIs, MQ integrations, and database-dependent applications.",
@@ -126,7 +122,6 @@ export const experiences: Experience[] = [
     company: "Bank of America",
     role: "Senior Software Engineer",
     period: "Sep 2019 — Aug 2021",
-    location: "Plano, TX",
     highlights: [
       "I built banking integrations for corporate-card, payment, expense, and financial-posting workflows using Java, Spring Boot, REST APIs, messaging, and secure file transfer.",
       "I developed JavaScript utilities for test-data generation, mocked responses, payload validation, and repeatable integration-test scenarios.",
@@ -139,7 +134,6 @@ export const experiences: Experience[] = [
     company: "Liberty Mutual Insurance",
     role: "Senior Software Engineer",
     period: "Apr 2018 — Aug 2019",
-    location: "Boston, MA",
     highlights: [
       "I developed Spring Boot services for policy, renewal, and claims workflows with versioned APIs, resilient integration patterns, and predictable production behavior.",
       "I created scripting frameworks for log aggregation, exception tracking, artifact checks, configuration validation, and deployment-readiness automation.",
@@ -151,7 +145,6 @@ export const experiences: Experience[] = [
     company: "Best Buy",
     role: "Senior Software Engineer",
     period: "Dec 2016 — Mar 2018",
-    location: "Richfield, MN",
     highlights: [
       "I engineered loyalty and rewards services using Spring Boot, React, RabbitMQ, Oracle, and MongoDB for high-volume retail journeys.",
       "I built custom scripts for batch processing, file transformations, scheduled jobs, test support, and repeatable environment automation.",
@@ -163,7 +156,6 @@ export const experiences: Experience[] = [
     company: "Aspire Systems",
     role: "Software Engineer",
     period: "Aug 2013 — Oct 2015",
-    location: "Chennai, India",
     highlights: [
       "I built Java and Spring services, AngularJS interfaces, and RabbitMQ integrations for enterprise customer-data synchronization.",
       "I automated configuration updates, certificate validation, startup verification, testing, packaging, and deployment through custom scripts and Jenkins pipelines.",

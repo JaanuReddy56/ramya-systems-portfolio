@@ -5,7 +5,6 @@ export function ExperienceCard({ item }: { item: Experience }) {
     <article className="grid gap-5 border-b border-slate-200 py-8 last:border-0 md:grid-cols-[220px_1fr] dark:border-slate-800">
       <div>
         <p className="font-mono text-xs uppercase tracking-[0.13em] text-emerald-700 dark:text-emerald-400">{item.period}</p>
-        <p className="mt-2 text-sm text-slate-500 dark:text-slate-500">{item.location}</p>
       </div>
       <div>
         <h3 className="text-xl font-semibold tracking-tight text-slate-950 dark:text-white">{item.company}</h3>
