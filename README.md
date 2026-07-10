@@ -14,6 +14,7 @@ A production-ready personal portfolio written in Ramya Reddy Koppula’s own voi
 
 - Java 8/11/17, Spring Boot, REST APIs, SOAP/WSDL, and microservices
 - JavaScript and Java-based integration and test automation
+- AI-assisted engineering with GitHub Copilot, Cursor, Claude Code, and ChatGPT, backed by independent review, output validation, and privacy-aware usage
 - Broadcom DevTest / CA DevTest v10.9.x service virtualization
 - REST, SOAP, MQ, and database virtual-service design
 - VSE administration, registries, service images, and environment troubleshooting
@@ -29,6 +30,7 @@ A production-ready personal portfolio written in Ramya Reddy Koppula’s own voi
 - Career signals aligned with senior software engineering roles
 - Three public-safe case studies covering Java services, DevTest, automation, and data workflows
 - Experience timeline with recent banking emphasis
+- AI-assisted development highlights added to the Capital One and Freddie Mac project and experience sections
 - Skills grouped around Java, integrations, service virtualization, data platforms, testing, delivery, and operations
 - Certifications and recruiter-ready contact section
 - Responsive light and dark modes

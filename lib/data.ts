@@ -45,8 +45,9 @@ export const projects: Project[] = [
       "I designed secure Spring Boot REST services and Java-based integration components for banking, payment, compliance, and reporting workflows.",
       "I created and maintained Broadcom DevTest v10.9 virtual services for REST, SOAP, MQ, and database dependencies, including dynamic matching, parameterized responses, and failure simulation.",
       "I integrated JavaScript automation with Jenkins, Maven, and OpenShift delivery while supporting Snowflake reporting pipelines with staged loading, SQL validation, balancing controls, and exception handling.",
+      "I used GitHub Copilot, Cursor, Claude Code, and ChatGPT to accelerate scaffolding, refactoring, unit-test development, debugging, and documentation while independently validating every output for correctness, security, and enterprise standards.",
     ],
-    stack: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Snowflake", "Jenkins", "OpenShift"],
+    stack: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Snowflake", "Jenkins", "OpenShift", "AI-Assisted Development"],
     signal: "Current banking platform work",
   },
   {
@@ -58,8 +59,9 @@ export const projects: Project[] = [
       "I developed Java and Spring Boot services plus REST and SOAP integration adapters for mortgage, HR, payroll, banking, and partner-system workflows.",
       "I implemented Broadcom DevTest virtual services and Java/JavaScript extensions for dynamic request correlation, payload transformation, data-driven responses, and environment-aware configuration.",
       "I automated delivery through Jenkins and reusable pipeline patterns, and supported Snowflake/Python workflows for ingestion, sanitization, reconciliation, secure views, and analytics-ready reporting.",
+      "I applied GitHub Copilot and Cursor for Java boilerplate, mappings, repository code, refactoring, and test setup, and used Claude Code and ChatGPT for debugging, log interpretation, API documentation, and design comparisons with privacy-aware review controls.",
     ],
-    stack: ["Java 17", "Spring Boot", "Broadcom DevTest", "JavaScript", "Snowflake", "Python", "Jenkins"],
+    stack: ["Java 17", "Spring Boot", "Broadcom DevTest", "JavaScript", "Snowflake", "Python", "Jenkins", "AI-Assisted Development"],
     signal: "Integration + data reliability",
   },
   {
@@ -89,8 +91,9 @@ export const experiences: Experience[] = [
       "I integrate automated testing and virtual services with Jenkins, Maven, GitHub Actions, and OpenShift delivery pipelines to improve repeatability and release confidence.",
       "I troubleshoot SSL, connectivity, service-image, environment, and performance issues; partner with Broadcom support; and publish standards, runbooks, and onboarding guidance.",
       "I build and optimize Snowflake reporting pipelines using staged loading, SQL transformations, validation rules, balancing controls, and governed access to financial data.",
+      "I use GitHub Copilot and Cursor for Java scaffolding, repetitive mappings, refactoring, and unit-test setup, and Claude Code and ChatGPT for log analysis, code-path exploration, edge-case test ideas, and documentation while reviewing and validating every recommendation.",
     ],
-    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest 10.9", "Snowflake", "Jenkins", "OpenShift"],
+    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest 10.9", "Snowflake", "Jenkins", "OpenShift", "GitHub Copilot", "Cursor", "Claude Code", "ChatGPT"],
   },
   {
     company: "Freddie Mac",
@@ -102,8 +105,9 @@ export const experiences: Experience[] = [
       "I built Java and JavaScript extensions for request correlation, payload manipulation, response validation, test-data parameterization, and environment-specific configuration.",
       "I automated service deployment and regression execution through Jenkins pipelines, performed root-cause analysis, and mentored teams on service design and maintainability.",
       "I supported Snowflake and Python data workflows for ingestion, sanitization, reconciliation, secure reporting, and audit-ready datasets alongside Kafka, AWS, and OpenShift platforms.",
+      "I used GitHub Copilot and Cursor to accelerate boilerplate, data mappings, repository code, refactoring, and test setup, and applied Claude Code and ChatGPT for debugging hypotheses, log interpretation, API documentation, and design comparisons using traceable, privacy-aware review checklists.",
     ],
-    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Snowflake", "Python", "Jenkins", "OpenShift"],
+    technologies: ["Java 17", "Spring Boot", "JavaScript", "Broadcom DevTest", "Snowflake", "Python", "Jenkins", "OpenShift", "GitHub Copilot", "Cursor", "Claude Code", "ChatGPT"],
   },
   {
     company: "Veterans Affairs Financial Services Center",
@@ -201,6 +205,10 @@ export const skillGroups = [
   {
     title: "Leadership & operations",
     items: ["Agile Scrum", "Stakeholder Management", "Root Cause Analysis", "Runbooks", "Implementation Standards", "Knowledge Transfer"],
+  },
+  {
+    title: "AI-assisted engineering",
+    items: ["GitHub Copilot", "Cursor", "Claude Code", "ChatGPT", "Code Scaffolding", "Refactoring", "Unit-Test Generation", "Debugging", "Output Validation", "Privacy-Aware Usage"],
   },
 ];
 
